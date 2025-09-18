@@ -1,0 +1,505 @@
+add2025-09-12 10:38:19.371 [main] ERROR  - Ошибка парсинга XML файла: Ошибка парсинга XML: Unrecognized field "movie" (class org.example.base.file.JacksonXmlFileManager$MovieCollection), not marked as ignorable (one known property: "movies"])
+ at [Source: (File); line: 4, column: 13] (through reference chain: org.example.base.file.JacksonXmlFileManager$MovieCollection["movie"])
+2025-09-12 10:38:19.435 [main] INFO   - Сервер запущен на порту 8080
+2025-09-12 10:39:13.770 [main] INFO   - Пришло сообщения от /127.0.0.1:63282:
+ClientCommandRequest{commandName='help', arguments=[]}
+2025-09-12 10:39:13.771 [main] INFO   - Сообщение обработано успешно: ServerResponse{type=SUCCESS, message='Доступные команды:
+info                 - вывести информацию о коллекции
+show                 - вывести все элементы коллекции
+add                  - добавить новый элемент в коллекцию
+add_if_min           - добавить элемент, если он меньше минимального
+clear                - очистить коллекцию
+help                 - показать справку по командам
+history              - показать историю команд
+max_by_coordinates   - показать элемент с максимальными координатами
+min_by_creation_time - показать элемент с минимальным временем создания
+remove_by_id         - удалить элемент по ID
+remove_greater       - удалить элементы больше заданного
+update               - обновить элемент по ID
+average_of_oscars_count - среднее количество оскаров
+save                 - сохранить коллекцию в файл (только сервер)
+'}
+2025-09-12 10:39:13.775 [main] INFO   - Сообщение отправлено /127.0.0.1:63282
+2025-09-12 10:49:09.535 [main] INFO   - Получено: exi
+2025-09-12 10:49:09.536 [main] ERROR  - Неверный ввод
+2025-09-12 10:49:09.536 [main] INFO   - Получена команда о сохранении коллекции
+2025-09-12 10:49:09.552 [main] INFO   - Коллекция сохранена в файл
+2025-09-12 10:49:09.552 [main] INFO   - Коллекция сохранена
+2025-09-12 10:49:10.547 [main] INFO   - Получено: 
+2025-09-12 10:49:10.547 [main] ERROR  - Неверный ввод
+2025-09-12 10:49:10.548 [main] INFO   - Получена команда о сохранении коллекции
+2025-09-12 10:49:10.549 [main] INFO   - Коллекция сохранена в файл
+2025-09-12 10:49:10.549 [main] INFO   - Коллекция сохранена
+2025-09-12 10:49:16.169 [main] INFO   - Получено: exit
+2025-09-12 10:49:16.169 [main] ERROR  - Неверный ввод
+2025-09-12 10:49:16.170 [main] INFO   - Получена команда о сохранении коллекции
+2025-09-12 10:49:16.171 [main] INFO   - Коллекция сохранена в файл
+2025-09-12 10:49:16.171 [main] INFO   - Коллекция сохранена
+2025-09-12 10:49:17.276 [main] INFO   - Получено: 
+2025-09-12 10:49:17.276 [main] ERROR  - Неверный ввод
+2025-09-12 10:49:17.277 [main] INFO   - Получена команда о сохранении коллекции
+2025-09-12 10:49:17.277 [main] INFO   - Коллекция сохранена в файл
+2025-09-12 10:49:17.278 [main] INFO   - Коллекция сохранена
+2025-09-12 10:49:17.498 [main] INFO   - Получено: 
+2025-09-12 10:49:17.498 [main] ERROR  - Неверный ввод
+2025-09-12 10:49:17.498 [main] INFO   - Получена команда о сохранении коллекции
+2025-09-12 10:49:17.499 [main] INFO   - Коллекция сохранена в файл
+2025-09-12 10:49:17.499 [main] INFO   - Коллекция сохранена
+2025-09-12 10:49:17.608 [main] INFO   - Получено: 
+2025-09-12 10:49:17.608 [main] ERROR  - Неверный ввод
+2025-09-12 10:49:17.608 [main] INFO   - Получена команда о сохранении коллекции
+2025-09-12 10:49:17.610 [main] INFO   - Коллекция сохранена в файл
+2025-09-12 10:49:17.610 [main] INFO   - Коллекция сохранена
+2025-09-12 10:49:32.250 [main] INFO   - Получено: 
+2025-09-12 10:49:32.250 [main] ERROR  - Неверный ввод
+2025-09-12 10:49:32.250 [main] INFO   - Получена команда о сохранении коллекции
+2025-09-12 10:49:32.251 [main] INFO   - Коллекция сохранена в файл
+2025-09-12 10:49:32.251 [main] INFO   - Коллекция сохранена
+2025-09-12 10:49:33.126 [main] INFO   - Получено: 
+2025-09-12 10:49:33.126 [main] ERROR  - Неверный ввод
+2025-09-12 10:49:33.126 [main] INFO   - Получена команда о сохранении коллекции
+2025-09-12 10:49:33.127 [main] INFO   - Коллекция сохранена в файл
+2025-09-12 10:49:33.127 [main] INFO   - Коллекция сохранена
+2025-09-12 10:49:33.680 [main] INFO   - Получено: 
+2025-09-12 10:49:33.680 [main] ERROR  - Неверный ввод
+2025-09-12 10:49:33.681 [main] INFO   - Получена команда о сохранении коллекции
+2025-09-12 10:49:33.682 [main] INFO   - Коллекция сохранена в файл
+2025-09-12 10:49:33.682 [main] INFO   - Коллекция сохранена
+2025-09-12 10:49:34.121 [main] INFO   - Получено: 
+2025-09-12 10:49:34.121 [main] ERROR  - Неверный ввод
+2025-09-12 10:49:34.122 [main] INFO   - Получена команда о сохранении коллекции
+2025-09-12 10:49:34.123 [main] INFO   - Коллекция сохранена в файл
+2025-09-12 10:49:34.123 [main] INFO   - Коллекция сохранена
+2025-09-12 10:49:34.231 [main] INFO   - Получено: 
+2025-09-12 10:49:34.232 [main] ERROR  - Неверный ввод
+2025-09-12 10:49:34.232 [main] INFO   - Получена команда о сохранении коллекции
+2025-09-12 10:49:34.233 [main] INFO   - Коллекция сохранена в файл
+2025-09-12 10:49:34.233 [main] INFO   - Коллекция сохранена
+2025-09-12 10:49:34.340 [main] INFO   - Получено: 
+2025-09-12 10:49:34.340 [main] ERROR  - Неверный ввод
+2025-09-12 10:49:34.341 [main] INFO   - Получена команда о сохранении коллекции
+2025-09-12 10:49:34.342 [main] INFO   - Коллекция сохранена в файл
+2025-09-12 10:49:34.342 [main] INFO   - Коллекция сохранена
+2025-09-12 11:15:17.112 [main] INFO   - Коллекция успешно загружена! Загружено элементов: 0
+2025-09-12 11:15:17.172 [main] INFO   - Сервер запущен на порту 8080
+2025-09-12 11:16:01.912 [main] INFO   - Пришло сообщения от /127.0.0.1:63868:
+ClientCommandRequest{commandName='help', arguments=[]}
+2025-09-12 11:16:01.913 [main] INFO   - Сообщение обработано успешно: ServerResponse{type=SUCCESS, message='Доступные команды:
+info                 - вывести информацию о коллекции
+show                 - вывести все элементы коллекции
+add                  - добавить новый элемент в коллекцию
+add_if_min           - добавить элемент, если он меньше минимального
+clear                - очистить коллекцию
+help                 - показать справку по командам
+history              - показать историю команд
+max_by_coordinates   - показать элемент с максимальными координатами
+min_by_creation_time - показать элемент с минимальным временем создания
+remove_by_id         - удалить элемент по ID
+remove_greater       - удалить элементы больше заданного
+update               - обновить элемент по ID
+average_of_oscars_count - среднее количество оскаров
+save                 - сохранить коллекцию в файл (только сервер)
+'}
+2025-09-12 11:16:01.916 [main] INFO   - Сообщение отправлено /127.0.0.1:63868
+2025-09-12 11:18:00.087 [main] INFO   - Коллекция успешно загружена! Загружено элементов: 0
+2025-09-12 11:18:00.148 [main] INFO   - Сервер запущен на порту 8080
+2025-09-12 11:19:03.984 [main] INFO   - Пришло сообщения от /127.0.0.1:50720:
+ClientCommandRequest{commandName='help', arguments=[]}
+2025-09-12 11:19:03.985 [main] INFO   - Сообщение обработано успешно: ServerResponse{type=SUCCESS, message='Доступные команды:
+info                 - вывести информацию о коллекции
+show                 - вывести все элементы коллекции
+add                  - добавить новый элемент в коллекцию
+add_if_min           - добавить элемент, если он меньше минимального
+clear                - очистить коллекцию
+help                 - показать справку по командам
+history              - показать историю команд
+max_by_coordinates   - показать элемент с максимальными координатами
+min_by_creation_time - показать элемент с минимальным временем создания
+remove_by_id         - удалить элемент по ID
+remove_greater       - удалить элементы больше заданного
+update               - обновить элемент по ID
+average_of_oscars_count - среднее количество оскаров
+save                 - сохранить коллекцию в файл (только сервер)
+'}
+2025-09-12 11:19:03.988 [main] INFO   - Сообщение отправлено /127.0.0.1:50720
+2025-09-12 11:20:59.839 [main] INFO   - Пришло сообщения от /127.0.0.1:55047:
+ClientCommandRequest{commandName='help', arguments=[]}
+2025-09-12 11:20:59.840 [main] INFO   - Сообщение обработано успешно: ServerResponse{type=SUCCESS, message='Доступные команды:
+info                 - вывести информацию о коллекции
+show                 - вывести все элементы коллекции
+add                  - добавить новый элемент в коллекцию
+add_if_min           - добавить элемент, если он меньше минимального
+clear                - очистить коллекцию
+help                 - показать справку по командам
+history              - показать историю команд
+max_by_coordinates   - показать элемент с максимальными координатами
+min_by_creation_time - показать элемент с минимальным временем создания
+remove_by_id         - удалить элемент по ID
+remove_greater       - удалить элементы больше заданного
+update               - обновить элемент по ID
+average_of_oscars_count - среднее количество оскаров
+save                 - сохранить коллекцию в файл (только сервер)
+'}
+2025-09-12 11:20:59.840 [main] INFO   - Сообщение отправлено /127.0.0.1:55047
+2025-09-12 11:22:31.243 [main] INFO   - Пришло сообщения от /127.0.0.1:51834:
+ClientCommandRequest{commandName='help', arguments=[]}
+2025-09-12 11:22:31.243 [main] INFO   - Сообщение обработано успешно: ServerResponse{type=SUCCESS, message='Доступные команды:
+info                 - вывести информацию о коллекции
+show                 - вывести все элементы коллекции
+add                  - добавить новый элемент в коллекцию
+add_if_min           - добавить элемент, если он меньше минимального
+clear                - очистить коллекцию
+help                 - показать справку по командам
+history              - показать историю команд
+max_by_coordinates   - показать элемент с максимальными координатами
+min_by_creation_time - показать элемент с минимальным временем создания
+remove_by_id         - удалить элемент по ID
+remove_greater       - удалить элементы больше заданного
+update               - обновить элемент по ID
+average_of_oscars_count - среднее количество оскаров
+save                 - сохранить коллекцию в файл (только сервер)
+'}
+2025-09-12 11:22:31.244 [main] INFO   - Сообщение отправлено /127.0.0.1:51834
+2025-09-12 12:11:00.497 [main] INFO   - Коллекция успешно загружена! Загружено элементов: 0
+2025-09-12 12:11:00.567 [main] INFO   - Сервер запущен на порту 8080
+2025-09-12 12:11:39.608 [main] INFO   - Получено: chcp
+2025-09-12 12:11:39.608 [main] ERROR  - Неверный ввод
+2025-09-12 12:11:39.608 [main] INFO   - Получена команда о сохранении коллекции
+2025-09-12 12:11:39.624 [main] INFO   - Коллекция сохранена в файл
+2025-09-12 12:11:39.624 [main] INFO   - Коллекция сохранена
+2025-09-12 12:11:44.749 [main] INFO   - Получено: exit
+2025-09-12 12:11:44.749 [main] ERROR  - Неверный ввод
+2025-09-12 12:11:44.749 [main] INFO   - Получена команда о сохранении коллекции
+2025-09-12 12:11:44.750 [main] INFO   - Коллекция сохранена в файл
+2025-09-12 12:11:44.750 [main] INFO   - Коллекция сохранена
+2025-09-12 12:12:14.695 [main] INFO   - Коллекция успешно загружена! Загружено элементов: 0
+2025-09-12 12:12:14.757 [main] INFO   - Сервер запущен на порту 8080
+2025-09-12 12:12:51.952 [main] INFO   - Пришло сообщения от /127.0.0.1:56421:
+ClientCommandRequest{commandName='help', arguments=[]}
+2025-09-12 12:12:51.953 [main] INFO   - Сообщение обработано успешно: ServerResponse{type=SUCCESS, message='Доступные команды:
+info                 - вывести информацию о коллекции
+show                 - вывести все элементы коллекции
+add                  - добавить новый элемент в коллекцию
+add_if_min           - добавить элемент, если он меньше минимального
+clear                - очистить коллекцию
+help                 - показать справку по командам
+history              - показать историю команд
+max_by_coordinates   - показать элемент с максимальными координатами
+min_by_creation_time - показать элемент с минимальным временем создания
+remove_by_id         - удалить элемент по ID
+remove_greater       - удалить элементы больше заданного
+update               - обновить элемент по ID
+average_of_oscars_count - среднее количество оскаров
+save                 - сохранить коллекцию в файл (только сервер)
+'}
+2025-09-12 12:12:51.956 [main] INFO   - Сообщение отправлено /127.0.0.1:56421
+2025-09-15 17:45:21.366 [main] INFO   - Коллекция успешно загружена! Загружено элементов: 0
+2025-09-15 17:45:21.455 [main] INFO   - Сервер запущен на порту 8080
+2025-09-15 17:48:27.171 [main] INFO   - Коллекция успешно загружена! Загружено элементов: 0
+2025-09-15 17:48:27.245 [main] INFO   - Сервер запущен на порту 8080
+2025-09-15 17:50:09.838 [main] INFO   - Коллекция успешно загружена! Загружено элементов: 0
+2025-09-15 17:50:09.908 [main] INFO   - Сервер запущен на порту 8080
+2025-09-15 17:50:53.298 [main] INFO   - Пришло сообщения от /127.0.0.1:55099:
+ClientCommandRequest{commandName='help', arguments=[]}
+2025-09-15 17:50:53.300 [main] INFO   - Сообщение обработано успешно: ServerResponse{type=SUCCESS, message='Доступные команды:
+info                 - вывести информацию о коллекции
+show                 - вывести все элементы коллекции
+add                  - добавить новый элемент в коллекцию
+add_if_min           - добавить элемент, если он меньше минимального
+clear                - очистить коллекцию
+help                 - показать справку по командам
+history              - показать историю команд
+max_by_coordinates   - показать элемент с максимальными координатами
+min_by_creation_time - показать элемент с минимальным временем создания
+remove_by_id         - удалить элемент по ID
+remove_greater       - удалить элементы больше заданного
+update               - обновить элемент по ID
+average_of_oscars_count - среднее количество оскаров
+save                 - сохранить коллекцию в файл (только сервер)
+'}
+2025-09-15 17:50:53.303 [main] INFO   - Сообщение отправлено /127.0.0.1:55099
+2025-09-15 17:55:51.846 [main] ERROR  - Ошибка парсинга XML файла: Ошибка парсинга XML: Cannot deserialize value of type `java.time.ZonedDateTime` from String "2024-03-20T10:30:00": Failed to deserialize java.time.ZonedDateTime: (java.time.format.DateTimeParseException) Text '2024-03-20T10:30:00' could not be parsed at index 19
+ at [Source: (File); line: 10, column: 40] (through reference chain: org.example.base.file.JacksonXmlFileManager$MovieCollection["movies"]->java.util.ArrayList[0]->org.example.base.model.Movie["creationDate"])
+2025-09-15 17:55:51.920 [main] INFO   - Сервер запущен на порту 8080
+2025-09-15 17:56:47.398 [main] INFO   - Коллекция успешно загружена! Загружено элементов: 1
+2025-09-15 17:56:47.469 [main] INFO   - Сервер запущен на порту 8080
+2025-09-15 17:58:31.256 [main] INFO   - Пришло сообщения от /127.0.0.1:55463:
+ClientCommandRequest{commandName='show', arguments=[]}
+2025-09-15 17:58:31.269 [main] INFO   - Сообщение обработано успешно: ServerResponse{type=SUCCESS, message='Movie{id=1, name='Test Movie', coordinates=(10, 20), creationDate=2024-03-20T10:30Z, oscarsCount=5, budget=1000000, genre=SCIENCE_FICTION, mpaaRating=PG_13, operator=Person{name='John Operator', birthday=1979-12-31T21:00Z, height=180.5, weight=75, location=null}}
+'}
+2025-09-15 17:58:31.273 [main] INFO   - Сообщение отправлено /127.0.0.1:55463
+2025-09-15 18:03:09.968 [main] INFO   - Коллекция успешно загружена! Загружено элементов: 1
+2025-09-15 18:03:10.038 [main] INFO   - Сервер запущен на порту 8080
+2025-09-15 18:14:13.785 [main] INFO   - Коллекция успешно загружена! Загружено элементов: 1
+2025-09-15 18:14:13.858 [main] INFO   - Сервер запущен на порту 8080
+2025-09-15 18:18:56.569 [main] INFO   - Коллекция успешно загружена! Загружено элементов: 1
+2025-09-15 18:18:56.642 [main] INFO   - Сервер запущен на порту 8080
+2025-09-15 18:19:33.654 [main] ERROR  - Ошибка запуска сервера: null
+2025-09-15 18:21:20.180 [main] INFO   - Коллекция успешно загружена! Загружено элементов: 1
+2025-09-15 18:21:20.253 [main] INFO   - Сервер запущен на порту 8080
+2025-09-15 18:21:26.510 [main] INFO   - Получено: ASDSAGDFSFDSD
+2025-09-15 18:21:26.511 [main] ERROR  - Неверный ввод
+2025-09-15 18:21:26.511 [main] INFO   - Получена команда о сохранении коллекции
+2025-09-15 18:21:26.542 [main] INFO   - Коллекция сохранена в файл
+2025-09-15 18:21:26.543 [main] INFO   - Коллекция сохранена
+2025-09-15 18:22:00.193 [main] INFO   - Пришло сообщения от /127.0.0.1:56038:
+ClientCommandRequest{commandName='help', arguments=[]}
+2025-09-15 18:22:00.194 [main] INFO   - Сообщение обработано успешно: ServerResponse{type=SUCCESS, message='Доступные команды:
+info                 - вывести информацию о коллекции
+show                 - вывести все элементы коллекции
+add                  - добавить новый элемент в коллекцию
+add_if_min           - добавить элемент, если он меньше минимального
+clear                - очистить коллекцию
+help                 - показать справку по командам
+history              - показать историю команд
+max_by_coordinates   - показать элемент с максимальными координатами
+min_by_creation_time - показать элемент с минимальным временем создания
+remove_by_id         - удалить элемент по ID
+remove_greater       - удалить элементы больше заданного
+update               - обновить элемент по ID
+average_of_oscars_count - среднее количество оскаров
+save                 - сохранить коллекцию в файл (только сервер)
+'}
+2025-09-15 18:22:00.197 [main] INFO   - Сообщение отправлено /127.0.0.1:56038
+2025-09-15 18:22:51.297 [main] ERROR  - Ошибка запуска сервера: null
+2025-09-15 18:26:51.413 [main] WARN   - Пропуск некорректного элемента id=1: operator.location.x: не может быть null
+2025-09-15 18:26:51.415 [main] INFO   - Коллекция успешно загружена! Загружено элементов: 0
+2025-09-15 18:26:51.487 [main] INFO   - Сервер запущен на порту 8080
+2025-09-15 18:28:37.553 [main] ERROR  - Критическая ошибка обработки запроса: null
+java.io.EOFException: null
+	at java.io.ObjectInputStream$PeekInputStream.readFully(ObjectInputStream.java:2940) ~[?:?]
+	at java.io.ObjectInputStream$BlockDataInputStream.readUTFBody(ObjectInputStream.java:3743) ~[?:?]
+	at java.io.ObjectInputStream$BlockDataInputStream.readUTF(ObjectInputStream.java:3507) ~[?:?]
+	at java.io.ObjectInputStream.readString(ObjectInputStream.java:2114) ~[?:?]
+	at java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1732) ~[?:?]
+	at java.io.ObjectInputStream.readArray(ObjectInputStream.java:2180) ~[?:?]
+	at java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1738) ~[?:?]
+	at java.io.ObjectInputStream$FieldValues.<init>(ObjectInputStream.java:2625) ~[?:?]
+	at java.io.ObjectInputStream.readSerialData(ObjectInputStream.java:2472) ~[?:?]
+	at java.io.ObjectInputStream.readOrdinaryObject(ObjectInputStream.java:2278) ~[?:?]
+	at java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1750) ~[?:?]
+	at java.io.ObjectInputStream.readObject(ObjectInputStream.java:528) ~[?:?]
+	at java.io.ObjectInputStream.readObject(ObjectInputStream.java:486) ~[?:?]
+	at org.example.server.util.DeserializationUtil.deserializeClientRequest(DeserializationUtil.java:17) ~[server-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at org.example.server.Server.getClientRequest(Server.java:160) ~[server-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at org.example.server.Server.cycle(Server.java:77) [server-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at org.example.Main.main(Main.java:58) [server-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+2025-09-15 18:30:54.604 [main] WARN   - Пропуск некорректного элемента id=1: operator.location.x: не может быть null
+2025-09-15 18:30:54.607 [main] INFO   - Коллекция успешно загружена! Загружено элементов: 0
+2025-09-15 18:30:54.677 [main] INFO   - Сервер запущен на порту 8080
+2025-09-15 18:31:33.296 [main] INFO   - Пришло сообщения от /127.0.0.1:51582:
+ClientCommandRequest{commandName='add', arguments=[rO0ABXNyABxvcmcuZXhhbXBsZS5iYXNlLm1vZGVsLk1vdmllAAAAAAAAAAECAAlKAAZidWRnZXRMAAtjb29yZGluYXRlc3QAJExvcmcvZXhhbXBsZS9iYXNlL21vZGVsL0Nvb3JkaW5hdGVzO0wADGNyZWF0aW9uRGF0ZXQAGUxqYXZhL3RpbWUvWm9uZWREYXRlVGltZTtMAAVnZW5yZXQAI0xvcmcvZXhhbXBsZS9iYXNlL21vZGVsL01vdmllR2VucmU7TAACaWR0ABNMamF2YS9sYW5nL0ludGVnZXI7TAAKbXBhYVJhdGluZ3QAI0xvcmcvZXhhbXBsZS9iYXNlL21vZGVsL01wYWFSYXRpbmc7TAAEbmFtZXQAEkxqYXZhL2xhbmcvU3RyaW5nO0wACG9wZXJhdG9ydAAfTG9yZy9leGFtcGxlL2Jhc2UvbW9kZWwvUGVyc29uO0wAC29zY2Fyc0NvdW50dAAQTGphdmEvbGFuZy9Mb25nO3hwAAAAAAAAAHtzcgAib3JnLmV4YW1wbGUuYmFzZS5tb2RlbC5Db29yZGluYXRlcwAAAAAAAAABAgACSQABeEwAAXlxAH4ACHhwAAAAe3NyAA5qYXZhLmxhbmcuTG9uZzuL5JDMjyPfAgABSgAFdmFsdWV4cgAQamF2YS5sYW5nLk51bWJlcoaslR0LlOCLAgAAeHAAAAAAAAAAe3B+cgAhb3JnLmV4YW1wbGUuYmFzZS5tb2RlbC5Nb3ZpZUdlbnJlAAAAAAAAAAASAAB4cgAOamF2YS5sYW5nLkVudW0AAAAAAAAAABIAAHhwdAAHV0VTVEVSTnB+cgAhb3JnLmV4YW1wbGUuYmFzZS5tb2RlbC5NcGFhUmF0aW5nAAAAAAAAAAASAAB4cQB+ABB0AAFHdAADcXdlc3IAHW9yZy5leGFtcGxlLmJhc2UubW9kZWwuUGVyc29uAAAAAAAAAAECAAVJAAZ3ZWlnaHRMAAhiaXJ0aGRheXEAfgACTAAGaGVpZ2h0dAARTGphdmEvbGFuZy9GbG9hdDtMAAhsb2NhdGlvbnQAIUxvcmcvZXhhbXBsZS9iYXNlL21vZGVsL0xvY2F0aW9uO0wABG5hbWVxAH4ABnhwAAAAe3NyAA1qYXZhLnRpbWUuU2VylV2EuhsiSLIMAAB4cHcLBgAAB7wBAf8ACAB4c3IAD2phdmEubGFuZy5GbG9hdNrtyaLbPPDsAgABRgAFdmFsdWV4cQB+AA1C9gAAcHQAA3F3ZXEAfgAO]}
+2025-09-15 18:31:33.301 [main] INFO   - Сообщение обработано успешно: ServerResponse{type=SUCCESS, message='Фильм успешно добавлен в коллекцию с ID: 1'}
+2025-09-15 18:31:33.303 [main] INFO   - Сообщение отправлено /127.0.0.1:51582
+2025-09-15 18:33:29.105 [main] INFO   - Получено: ыфму
+2025-09-15 18:33:29.106 [main] ERROR  - Неверный ввод
+2025-09-15 18:33:29.106 [main] INFO   - Получена команда о сохранении коллекции
+2025-09-15 18:33:29.136 [main] INFO   - Коллекция сохранена в файл
+2025-09-15 18:33:29.137 [main] INFO   - Коллекция сохранена
+2025-09-15 18:33:41.157 [main] INFO   - Получено: save
+2025-09-15 18:33:41.157 [main] INFO   - Получена команда о сохранении коллекции
+2025-09-15 18:33:41.159 [main] INFO   - Коллекция сохранена в файл
+2025-09-15 18:33:41.159 [main] INFO   - Коллекция сохранена
+2025-09-15 18:35:09.485 [main] INFO   - Пришло сообщения от /127.0.0.1:55260:
+ClientCommandRequest{commandName='add', arguments=[rO0ABXNyABxvcmcuZXhhbXBsZS5iYXNlLm1vZGVsLk1vdmllAAAAAAAAAAECAAlKAAZidWRnZXRMAAtjb29yZGluYXRlc3QAJExvcmcvZXhhbXBsZS9iYXNlL21vZGVsL0Nvb3JkaW5hdGVzO0wADGNyZWF0aW9uRGF0ZXQAGUxqYXZhL3RpbWUvWm9uZWREYXRlVGltZTtMAAVnZW5yZXQAI0xvcmcvZXhhbXBsZS9iYXNlL21vZGVsL01vdmllR2VucmU7TAACaWR0ABNMamF2YS9sYW5nL0ludGVnZXI7TAAKbXBhYVJhdGluZ3QAI0xvcmcvZXhhbXBsZS9iYXNlL21vZGVsL01wYWFSYXRpbmc7TAAEbmFtZXQAEkxqYXZhL2xhbmcvU3RyaW5nO0wACG9wZXJhdG9ydAAfTG9yZy9leGFtcGxlL2Jhc2UvbW9kZWwvUGVyc29uO0wAC29zY2Fyc0NvdW50dAAQTGphdmEvbGFuZy9Mb25nO3hwAAAAAAAABFdzcgAib3JnLmV4YW1wbGUuYmFzZS5tb2RlbC5Db29yZGluYXRlcwAAAAAAAAABAgACSQABeEwAAXlxAH4ACHhwAAABOHNyAA5qYXZhLmxhbmcuTG9uZzuL5JDMjyPfAgABSgAFdmFsdWV4cgAQamF2YS5sYW5nLk51bWJlcoaslR0LlOCLAgAAeHAAAAAAAAABQXB+cgAhb3JnLmV4YW1wbGUuYmFzZS5tb2RlbC5Nb3ZpZUdlbnJlAAAAAAAAAAASAAB4cgAOamF2YS5sYW5nLkVudW0AAAAAAAAAABIAAHhwdAAHTVVTSUNBTHB+cgAhb3JnLmV4YW1wbGUuYmFzZS5tb2RlbC5NcGFhUmF0aW5nAAAAAAAAAAASAAB4cQB+ABB0AAFHdAADZXdxc3IAHW9yZy5leGFtcGxlLmJhc2UubW9kZWwuUGVyc29uAAAAAAAAAAECAAVJAAZ3ZWlnaHRMAAhiaXJ0aGRheXEAfgACTAAGaGVpZ2h0dAARTGphdmEvbGFuZy9GbG9hdDtMAAhsb2NhdGlvbnQAIUxvcmcvZXhhbXBsZS9iYXNlL21vZGVsL0xvY2F0aW9uO0wABG5hbWVxAH4ABnhwAAAAe3NyAA1qYXZhLnRpbWUuU2VylV2EuhsiSLIMAAB4cHcLBgAAB9ABAf8ACAB4c3IAD2phdmEubGFuZy5GbG9hdNrtyaLbPPDsAgABRgAFdmFsdWV4cQB+AA1C9gAAcHQAA1FXRXNxAH4ADAAAAAAAAAAL]}
+2025-09-15 18:35:09.486 [main] INFO   - Сообщение обработано успешно: ServerResponse{type=SUCCESS, message='Фильм успешно добавлен в коллекцию с ID: 2'}
+2025-09-15 18:35:09.487 [main] INFO   - Сообщение отправлено /127.0.0.1:55260
+2025-09-15 18:35:17.390 [main] INFO   - Получено: SAVE
+2025-09-15 18:35:17.390 [main] INFO   - Получена команда о сохранении коллекции
+2025-09-15 18:35:17.392 [main] INFO   - Коллекция сохранена в файл
+2025-09-15 18:35:17.392 [main] INFO   - Коллекция сохранена
+2025-09-15 18:36:07.591 [main] INFO   - Пришло сообщения от /127.0.0.1:55260:
+ClientCommandRequest{commandName='add', arguments=[rO0ABXNyABxvcmcuZXhhbXBsZS5iYXNlLm1vZGVsLk1vdmllAAAAAAAAAAECAAlKAAZidWRnZXRMAAtjb29yZGluYXRlc3QAJExvcmcvZXhhbXBsZS9iYXNlL21vZGVsL0Nvb3JkaW5hdGVzO0wADGNyZWF0aW9uRGF0ZXQAGUxqYXZhL3RpbWUvWm9uZWREYXRlVGltZTtMAAVnZW5yZXQAI0xvcmcvZXhhbXBsZS9iYXNlL21vZGVsL01vdmllR2VucmU7TAACaWR0ABNMamF2YS9sYW5nL0ludGVnZXI7TAAKbXBhYVJhdGluZ3QAI0xvcmcvZXhhbXBsZS9iYXNlL21vZGVsL01wYWFSYXRpbmc7TAAEbmFtZXQAEkxqYXZhL2xhbmcvU3RyaW5nO0wACG9wZXJhdG9ydAAfTG9yZy9leGFtcGxlL2Jhc2UvbW9kZWwvUGVyc29uO0wAC29zY2Fyc0NvdW50dAAQTGphdmEvbGFuZy9Mb25nO3hwAAAAAAADZA5zcgAib3JnLmV4YW1wbGUuYmFzZS5tb2RlbC5Db29yZGluYXRlcwAAAAAAAAABAgACSQABeEwAAXlxAH4ACHhwAAAA3nNyAA5qYXZhLmxhbmcuTG9uZzuL5JDMjyPfAgABSgAFdmFsdWV4cgAQamF2YS5sYW5nLk51bWJlcoaslR0LlOCLAgAAeHAAAAAAAAAA3nB+cgAhb3JnLmV4YW1wbGUuYmFzZS5tb2RlbC5Nb3ZpZUdlbnJlAAAAAAAAAAASAAB4cgAOamF2YS5sYW5nLkVudW0AAAAAAAAAABIAAHhwdAAGSE9SUk9ScH5yACFvcmcuZXhhbXBsZS5iYXNlLm1vZGVsLk1wYWFSYXRpbmcAAAAAAAAAABIAAHhxAH4AEHQAAUd0AANyZXRzcgAdb3JnLmV4YW1wbGUuYmFzZS5tb2RlbC5QZXJzb24AAAAAAAAAAQIABUkABndlaWdodEwACGJpcnRoZGF5cQB+AAJMAAZoZWlnaHR0ABFMamF2YS9sYW5nL0Zsb2F0O0wACGxvY2F0aW9udAAhTG9yZy9leGFtcGxlL2Jhc2UvbW9kZWwvTG9jYXRpb247TAAEbmFtZXEAfgAGeHAAAARXc3IADWphdmEudGltZS5TZXKVXYS6GyJIsgwAAHhwdwsGAAAH0AEB/wAIAHhzcgAPamF2YS5sYW5nLkZsb2F02u3Jots88OwCAAFGAAV2YWx1ZXhxAH4ADULeAABwdAAEZ2dmZHNxAH4ADAAAAAAAAADe]}
+2025-09-15 18:36:07.592 [main] INFO   - Сообщение обработано успешно: ServerResponse{type=SUCCESS, message='Фильм успешно добавлен в коллекцию с ID: 3'}
+2025-09-15 18:36:07.592 [main] INFO   - Сообщение отправлено /127.0.0.1:55260
+2025-09-15 18:36:50.170 [main] INFO   - Получено: 
+2025-09-15 18:36:50.170 [main] ERROR  - Неверный ввод
+2025-09-15 18:36:50.170 [main] INFO   - Получена команда о сохранении коллекции
+2025-09-15 18:36:50.172 [main] INFO   - Коллекция сохранена в файл
+2025-09-15 18:36:50.173 [main] INFO   - Коллекция сохранена
+2025-09-15 18:37:18.108 [main] INFO   - Получено: save
+2025-09-15 18:37:18.108 [main] INFO   - Получена команда о сохранении коллекции
+2025-09-15 18:37:18.110 [main] INFO   - Коллекция сохранена в файл
+2025-09-15 18:37:18.110 [main] INFO   - Коллекция сохранена
+2025-09-15 18:39:37.059 [main] WARN   - Пропуск некорректного элемента id=1: operator.location.x: не может быть null
+2025-09-15 18:39:37.061 [main] WARN   - Пропуск некорректного элемента id=2: operator.location.x: не может быть null
+2025-09-15 18:39:37.061 [main] WARN   - Пропуск некорректного элемента id=3: operator.location.x: не может быть null
+2025-09-15 18:39:37.061 [main] INFO   - Коллекция успешно загружена! Загружено элементов: 0
+2025-09-15 18:39:37.132 [main] INFO   - Сервер запущен на порту 8080
+2025-09-15 18:40:21.441 [main] INFO   - Пришло сообщения от /127.0.0.1:64527:
+ClientCommandRequest{commandName='add', arguments=[rO0ABXNyABxvcmcuZXhhbXBsZS5iYXNlLm1vZGVsLk1vdmllAAAAAAAAAAECAAlKAAZidWRnZXRMAAtjb29yZGluYXRlc3QAJExvcmcvZXhhbXBsZS9iYXNlL21vZGVsL0Nvb3JkaW5hdGVzO0wADGNyZWF0aW9uRGF0ZXQAGUxqYXZhL3RpbWUvWm9uZWREYXRlVGltZTtMAAVnZW5yZXQAI0xvcmcvZXhhbXBsZS9iYXNlL21vZGVsL01vdmllR2VucmU7TAACaWR0ABNMamF2YS9sYW5nL0ludGVnZXI7TAAKbXBhYVJhdGluZ3QAI0xvcmcvZXhhbXBsZS9iYXNlL21vZGVsL01wYWFSYXRpbmc7TAAEbmFtZXQAEkxqYXZhL2xhbmcvU3RyaW5nO0wACG9wZXJhdG9ydAAfTG9yZy9leGFtcGxlL2Jhc2UvbW9kZWwvUGVyc29uO0wAC29zY2Fyc0NvdW50dAAQTGphdmEvbGFuZy9Mb25nO3hwAAAAAAAE5ylzcgAib3JnLmV4YW1wbGUuYmFzZS5tb2RlbC5Db29yZGluYXRlcwAAAAAAAAABAgACSQABeEwAAXlxAH4ACHhwAAAAe3NyAA5qYXZhLmxhbmcuTG9uZzuL5JDMjyPfAgABSgAFdmFsdWV4cgAQamF2YS5sYW5nLk51bWJlcoaslR0LlOCLAgAAeHAAAAAAAAAA53B+cgAhb3JnLmV4YW1wbGUuYmFzZS5tb2RlbC5Nb3ZpZUdlbnJlAAAAAAAAAAASAAB4cgAOamF2YS5sYW5nLkVudW0AAAAAAAAAABIAAHhwdAAHV0VTVEVSTnB+cgAhb3JnLmV4YW1wbGUuYmFzZS5tb2RlbC5NcGFhUmF0aW5nAAAAAAAAAAASAAB4cQB+ABB0AAFHdAADcmV0c3IAHW9yZy5leGFtcGxlLmJhc2UubW9kZWwuUGVyc29uAAAAAAAAAAECAAVJAAZ3ZWlnaHRMAAhiaXJ0aGRheXEAfgACTAAGaGVpZ2h0dAARTGphdmEvbGFuZy9GbG9hdDtMAAhsb2NhdGlvbnQAIUxvcmcvZXhhbXBsZS9iYXNlL21vZGVsL0xvY2F0aW9uO0wABG5hbWVxAH4ABnhwAAABQXNyAA1qYXZhLnRpbWUuU2VylV2EuhsiSLIMAAB4cHcLBgAAB9ABAf8ACAB4c3IAD2phdmEubGFuZy5GbG9hdNrtyaLbPPDsAgABRgAFdmFsdWV4cQB+AA1DoIAAcHQABFJUV0VzcQB+AAwAAAAAAABaUw==]}
+2025-09-15 18:40:21.447 [main] INFO   - Сообщение обработано успешно: ServerResponse{type=SUCCESS, message='Фильм успешно добавлен в коллекцию с ID: 1'}
+2025-09-15 18:40:21.449 [main] INFO   - Сообщение отправлено /127.0.0.1:64527
+2025-09-15 18:41:06.838 [main] INFO   - Получено: 
+2025-09-15 18:41:06.838 [main] ERROR  - Неверный ввод
+2025-09-15 18:41:06.839 [main] INFO   - Получена команда о сохранении коллекции
+2025-09-15 18:41:06.870 [main] INFO   - Коллекция сохранена в файл
+2025-09-15 18:41:06.870 [main] INFO   - Коллекция сохранена
+2025-09-15 18:41:24.566 [main] INFO   - Получено: save
+2025-09-15 18:41:24.566 [main] INFO   - Получена команда о сохранении коллекции
+2025-09-15 18:41:24.568 [main] INFO   - Коллекция сохранена в файл
+2025-09-15 18:41:24.568 [main] INFO   - Коллекция сохранена
+2025-09-15 18:45:54.177 [main] WARN   - Пропуск некорректного элемента id=1: operator.location.x: не может быть null
+2025-09-15 18:45:54.179 [main] INFO   - Коллекция успешно загружена! Загружено элементов: 0
+2025-09-15 18:45:54.250 [main] INFO   - Сервер запущен на порту 8080
+2025-09-15 18:46:50.460 [main] INFO   - Пришло сообщения от /127.0.0.1:59959:
+ClientCommandRequest{commandName='add', arguments=[rO0ABXNyABxvcmcuZXhhbXBsZS5iYXNlLm1vZGVsLk1vdmllAAAAAAAAAAECAAlKAAZidWRnZXRMAAtjb29yZGluYXRlc3QAJExvcmcvZXhhbXBsZS9iYXNlL21vZGVsL0Nvb3JkaW5hdGVzO0wADGNyZWF0aW9uRGF0ZXQAGUxqYXZhL3RpbWUvWm9uZWREYXRlVGltZTtMAAVnZW5yZXQAI0xvcmcvZXhhbXBsZS9iYXNlL21vZGVsL01vdmllR2VucmU7TAACaWR0ABNMamF2YS9sYW5nL0ludGVnZXI7TAAKbXBhYVJhdGluZ3QAI0xvcmcvZXhhbXBsZS9iYXNlL21vZGVsL01wYWFSYXRpbmc7TAAEbmFtZXQAEkxqYXZhL2xhbmcvU3RyaW5nO0wACG9wZXJhdG9ydAAfTG9yZy9leGFtcGxlL2Jhc2UvbW9kZWwvUGVyc29uO0wAC29zY2Fyc0NvdW50dAAQTGphdmEvbGFuZy9Mb25nO3hwAAAAAAAAAOpzcgAib3JnLmV4YW1wbGUuYmFzZS5tb2RlbC5Db29yZGluYXRlcwAAAAAAAAABAgACSQABeEwAAXlxAH4ACHhwAAAAe3NyAA5qYXZhLmxhbmcuTG9uZzuL5JDMjyPfAgABSgAFdmFsdWV4cgAQamF2YS5sYW5nLk51bWJlcoaslR0LlOCLAgAAeHAAAAAAAAAZhnB+cgAhb3JnLmV4YW1wbGUuYmFzZS5tb2RlbC5Nb3ZpZUdlbnJlAAAAAAAAAAASAAB4cgAOamF2YS5sYW5nLkVudW0AAAAAAAAAABIAAHhwdAAHV0VTVEVSTnB+cgAhb3JnLmV4YW1wbGUuYmFzZS5tb2RlbC5NcGFhUmF0aW5nAAAAAAAAAAASAAB4cQB+ABB0AAFHdAADcXdlc3IAHW9yZy5leGFtcGxlLmJhc2UubW9kZWwuUGVyc29uAAAAAAAAAAECAAVJAAZ3ZWlnaHRMAAhiaXJ0aGRheXEAfgACTAAGaGVpZ2h0dAARTGphdmEvbGFuZy9GbG9hdDtMAAhsb2NhdGlvbnQAIUxvcmcvZXhhbXBsZS9iYXNlL21vZGVsL0xvY2F0aW9uO0wABG5hbWVxAH4ABnhwAAAAAnNyAA1qYXZhLnRpbWUuU2VylV2EuhsiSLIMAAB4cHcLBgAAB9ABAf8ACAB4c3IAD2phdmEubGFuZy5GbG9hdNrtyaLbPPDsAgABRgAFdmFsdWV4cQB+AA1BsAAAcHQAA1RHSHNxAH4ADAAAAAAAAADq]}
+2025-09-15 18:46:50.465 [main] INFO   - Сообщение обработано успешно: ServerResponse{type=SUCCESS, message='Фильм успешно добавлен в коллекцию с ID: 1'}
+2025-09-15 18:46:50.467 [main] INFO   - Сообщение отправлено /127.0.0.1:59959
+2025-09-15 18:47:17.835 [main] INFO   - Пришло сообщения от /127.0.0.1:59959:
+ClientCommandRequest{commandName='add', arguments=[rO0ABXNyABxvcmcuZXhhbXBsZS5iYXNlLm1vZGVsLk1vdmllAAAAAAAAAAECAAlKAAZidWRnZXRMAAtjb29yZGluYXRlc3QAJExvcmcvZXhhbXBsZS9iYXNlL21vZGVsL0Nvb3JkaW5hdGVzO0wADGNyZWF0aW9uRGF0ZXQAGUxqYXZhL3RpbWUvWm9uZWREYXRlVGltZTtMAAVnZW5yZXQAI0xvcmcvZXhhbXBsZS9iYXNlL21vZGVsL01vdmllR2VucmU7TAACaWR0ABNMamF2YS9sYW5nL0ludGVnZXI7TAAKbXBhYVJhdGluZ3QAI0xvcmcvZXhhbXBsZS9iYXNlL21vZGVsL01wYWFSYXRpbmc7TAAEbmFtZXQAEkxqYXZhL2xhbmcvU3RyaW5nO0wACG9wZXJhdG9ydAAfTG9yZy9leGFtcGxlL2Jhc2UvbW9kZWwvUGVyc29uO0wAC29zY2Fyc0NvdW50dAAQTGphdmEvbGFuZy9Mb25nO3hwAAAAAAAAAU1zcgAib3JnLmV4YW1wbGUuYmFzZS5tb2RlbC5Db29yZGluYXRlcwAAAAAAAAABAgACSQABeEwAAXlxAH4ACHhwAAABTXNyAA5qYXZhLmxhbmcuTG9uZzuL5JDMjyPfAgABSgAFdmFsdWV4cgAQamF2YS5sYW5nLk51bWJlcoaslR0LlOCLAgAAeHAAAAAAAAABTXB+cgAhb3JnLmV4YW1wbGUuYmFzZS5tb2RlbC5Nb3ZpZUdlbnJlAAAAAAAAAAASAAB4cgAOamF2YS5sYW5nLkVudW0AAAAAAAAAABIAAHhwdAAHV0VTVEVSTnB+cgAhb3JnLmV4YW1wbGUuYmFzZS5tb2RlbC5NcGFhUmF0aW5nAAAAAAAAAAASAAB4cQB+ABB0AAFHdAADdGVyc3IAHW9yZy5leGFtcGxlLmJhc2UubW9kZWwuUGVyc29uAAAAAAAAAAECAAVJAAZ3ZWlnaHRMAAhiaXJ0aGRheXEAfgACTAAGaGVpZ2h0dAARTGphdmEvbGFuZy9GbG9hdDtMAAhsb2NhdGlvbnQAIUxvcmcvZXhhbXBsZS9iYXNlL21vZGVsL0xvY2F0aW9uO0wABG5hbWVxAH4ABnhwAAABTXNyAA1qYXZhLnRpbWUuU2VylV2EuhsiSLIMAAB4cHcLBgAAB9ABAf8ACAB4c3IAD2phdmEubGFuZy5GbG9hdNrtyaLbPPDsAgABRgAFdmFsdWV4cQB+AA1DpoAAcHQABFRSV0VzcQB+AAwAAAAAAAABTQ==]}
+2025-09-15 18:47:17.836 [main] INFO   - Сообщение обработано успешно: ServerResponse{type=SUCCESS, message='Фильм успешно добавлен в коллекцию с ID: 2'}
+2025-09-15 18:47:17.837 [main] INFO   - Сообщение отправлено /127.0.0.1:59959
+2025-09-15 18:47:48.416 [main] INFO   - Пришло сообщения от /127.0.0.1:59959:
+ClientCommandRequest{commandName='add', arguments=[rO0ABXNyABxvcmcuZXhhbXBsZS5iYXNlLm1vZGVsLk1vdmllAAAAAAAAAAECAAlKAAZidWRnZXRMAAtjb29yZGluYXRlc3QAJExvcmcvZXhhbXBsZS9iYXNlL21vZGVsL0Nvb3JkaW5hdGVzO0wADGNyZWF0aW9uRGF0ZXQAGUxqYXZhL3RpbWUvWm9uZWREYXRlVGltZTtMAAVnZW5yZXQAI0xvcmcvZXhhbXBsZS9iYXNlL21vZGVsL01vdmllR2VucmU7TAACaWR0ABNMamF2YS9sYW5nL0ludGVnZXI7TAAKbXBhYVJhdGluZ3QAI0xvcmcvZXhhbXBsZS9iYXNlL21vZGVsL01wYWFSYXRpbmc7TAAEbmFtZXQAEkxqYXZhL2xhbmcvU3RyaW5nO0wACG9wZXJhdG9ydAAfTG9yZy9leGFtcGxlL2Jhc2UvbW9kZWwvUGVyc29uO0wAC29zY2Fyc0NvdW50dAAQTGphdmEvbGFuZy9Mb25nO3hwAAAAAAAACK5zcgAib3JnLmV4YW1wbGUuYmFzZS5tb2RlbC5Db29yZGluYXRlcwAAAAAAAAABAgACSQABeEwAAXlxAH4ACHhwAAABTHNyAA5qYXZhLmxhbmcuTG9uZzuL5JDMjyPfAgABSgAFdmFsdWV4cgAQamF2YS5sYW5nLk51bWJlcoaslR0LlOCLAgAAeHAAAAAAAAABQnB+cgAhb3JnLmV4YW1wbGUuYmFzZS5tb2RlbC5Nb3ZpZUdlbnJlAAAAAAAAAAASAAB4cgAOamF2YS5sYW5nLkVudW0AAAAAAAAAABIAAHhwdAAHV0VTVEVSTnB+cgAhb3JnLmV4YW1wbGUuYmFzZS5tb2RlbC5NcGFhUmF0aW5nAAAAAAAAAAASAAB4cQB+ABB0AAFHdAADZmV0c3IAHW9yZy5leGFtcGxlLmJhc2UubW9kZWwuUGVyc29uAAAAAAAAAAECAAVJAAZ3ZWlnaHRMAAhiaXJ0aGRheXEAfgACTAAGaGVpZ2h0dAARTGphdmEvbGFuZy9GbG9hdDtMAAhsb2NhdGlvbnQAIUxvcmcvZXhhbXBsZS9iYXNlL21vZGVsL0xvY2F0aW9uO0wABG5hbWVxAH4ABnhwAAAA3nNyAA1qYXZhLnRpbWUuU2VylV2EuhsiSLIMAAB4cHcLBgAAB9ABAf8ACAB4c3IAD2phdmEubGFuZy5GbG9hdNrtyaLbPPDsAgABRgAFdmFsdWV4cQB+AA1FESAAcHQAA0VXUXNxAH4ADAAAAAAAAADe]}
+2025-09-15 18:47:48.417 [main] INFO   - Сообщение обработано успешно: ServerResponse{type=SUCCESS, message='Фильм успешно добавлен в коллекцию с ID: 3'}
+2025-09-15 18:47:48.418 [main] INFO   - Сообщение отправлено /127.0.0.1:59959
+2025-09-15 18:48:00.432 [main] INFO   - Пришло сообщения от /127.0.0.1:59959:
+ClientCommandRequest{commandName='save', arguments=[]}
+2025-09-15 18:48:00.464 [main] INFO   - Сообщение обработано успешно: ServerResponse{type=SUCCESS, message='Коллекция сохранена'}
+2025-09-15 18:48:00.465 [main] INFO   - Сообщение отправлено /127.0.0.1:59959
+2025-09-15 19:09:50.512 [main] WARN   - Пропуск некорректного элемента id=1: operator.location.x: не может быть null
+2025-09-15 19:09:50.514 [main] WARN   - Пропуск некорректного элемента id=2: operator.location.x: не может быть null
+2025-09-15 19:09:50.514 [main] WARN   - Пропуск некорректного элемента id=3: operator.location.x: не может быть null
+2025-09-15 19:09:50.515 [main] INFO   - Коллекция успешно загружена! Загружено элементов: 0
+2025-09-15 19:09:50.585 [main] INFO   - Сервер запущен на порту 8080
+2025-09-15 19:12:09.165 [main] INFO   - Пришло сообщения от /127.0.0.1:60714:
+ClientCommandRequest{commandName='add', arguments=[rO0ABXNyABxvcmcuZXhhbXBsZS5iYXNlLm1vZGVsLk1vdmllAAAAAAAAAAECAAlKAAZidWRnZXRMAAtjb29yZGluYXRlc3QAJExvcmcvZXhhbXBsZS9iYXNlL21vZGVsL0Nvb3JkaW5hdGVzO0wADGNyZWF0aW9uRGF0ZXQAGUxqYXZhL3RpbWUvWm9uZWREYXRlVGltZTtMAAVnZW5yZXQAI0xvcmcvZXhhbXBsZS9iYXNlL21vZGVsL01vdmllR2VucmU7TAACaWR0ABNMamF2YS9sYW5nL0ludGVnZXI7TAAKbXBhYVJhdGluZ3QAI0xvcmcvZXhhbXBsZS9iYXNlL21vZGVsL01wYWFSYXRpbmc7TAAEbmFtZXQAEkxqYXZhL2xhbmcvU3RyaW5nO0wACG9wZXJhdG9ydAAfTG9yZy9leGFtcGxlL2Jhc2UvbW9kZWwvUGVyc29uO0wAC29zY2Fyc0NvdW50dAAQTGphdmEvbGFuZy9Mb25nO3hwAAAAAAAAAadzcgAib3JnLmV4YW1wbGUuYmFzZS5tb2RlbC5Db29yZGluYXRlcwAAAAAAAAABAgACSQABeEwAAXlxAH4ACHhwAAABsHNyAA5qYXZhLmxhbmcuTG9uZzuL5JDMjyPfAgABSgAFdmFsdWV4cgAQamF2YS5sYW5nLk51bWJlcoaslR0LlOCLAgAAeHAAAAAAAAAAF3B+cgAhb3JnLmV4YW1wbGUuYmFzZS5tb2RlbC5Nb3ZpZUdlbnJlAAAAAAAAAAASAAB4cgAOamF2YS5sYW5nLkVudW0AAAAAAAAAABIAAHhwdAAHV0VTVEVSTnB+cgAhb3JnLmV4YW1wbGUuYmFzZS5tb2RlbC5NcGFhUmF0aW5nAAAAAAAAAAASAAB4cQB+ABB0AAFHdAADdHJlc3IAHW9yZy5leGFtcGxlLmJhc2UubW9kZWwuUGVyc29uAAAAAAAAAAECAAVJAAZ3ZWlnaHRMAAhiaXJ0aGRheXEAfgACTAAGaGVpZ2h0dAARTGphdmEvbGFuZy9GbG9hdDtMAAhsb2NhdGlvbnQAIUxvcmcvZXhhbXBsZS9iYXNlL21vZGVsL0xvY2F0aW9uO0wABG5hbWVxAH4ABnhwAAAAFnNyAA1qYXZhLnRpbWUuU2VylV2EuhsiSLIMAAB4cHcLBgAAB9ABAf8ACAB4c3IAD2phdmEubGFuZy5GbG9hdNrtyaLbPPDsAgABRgAFdmFsdWV4cQB+AA1DoIAAcHQAA0ZHRHNxAH4ADAAAAAAAAAAg]}
+2025-09-15 19:12:09.170 [main] INFO   - Сообщение обработано успешно: ServerResponse{type=SUCCESS, message='Фильм успешно добавлен в коллекцию с ID: 1'}
+2025-09-15 19:12:09.173 [main] INFO   - Сообщение отправлено /127.0.0.1:60714
+2025-09-15 19:12:44.012 [main] INFO   - Пришло сообщения от /127.0.0.1:60714:
+ClientCommandRequest{commandName='save', arguments=[]}
+2025-09-15 19:12:44.042 [main] INFO   - Сообщение обработано успешно: ServerResponse{type=SUCCESS, message='Коллекция сохранена'}
+2025-09-15 19:12:44.042 [main] INFO   - Сообщение отправлено /127.0.0.1:60714
+2025-09-15 19:21:03.015 [main] INFO   - Прочитано из файла: 1 элементов
+2025-09-15 19:21:03.018 [main] WARN   - Пропуск некорректного элемента id=1: operator.location.x: не может быть null
+2025-09-15 19:21:03.023 [main] INFO   - Итог загрузки: добавлено=0, загружено=0, пропущено=1, всего в коллекции=0
+2025-09-15 19:21:03.093 [main] INFO   - Сервер запущен на порту 8080
+2025-09-15 19:37:20.200 [main] INFO   - Прочитано из файла: 1 элементов
+2025-09-15 19:37:20.203 [main] WARN   - Пропуск некорректного элемента id=1: operator.location.name: не может быть пустым
+2025-09-15 19:37:20.208 [main] INFO   - Итог загрузки: добавлено=0, загружено=0, пропущено=1, всего в коллекции=0
+2025-09-15 19:37:20.290 [main] INFO   - Сервер запущен на порту 8080
+2025-09-15 19:45:11.944 [main] INFO   - Прочитано из файла: 1 элементов
+2025-09-15 19:45:11.948 [main] INFO   - Добавляем через addLoaded: tre (ID: 1)
+2025-09-15 19:45:11.953 [main] INFO   - Итог загрузки: добавлено=0, загружено=1, пропущено=0, всего в коллекции=1
+2025-09-15 19:45:12.034 [main] INFO   - Сервер запущен на порту 8080
+2025-09-15 19:45:39.234 [main] INFO   - Пришло сообщения от /127.0.0.1:54128:
+ClientCommandRequest{commandName='save', arguments=[]}
+2025-09-15 19:45:39.272 [main] INFO   - Сообщение обработано успешно: ServerResponse{type=SUCCESS, message='Коллекция сохранена'}
+2025-09-15 19:45:39.275 [main] INFO   - Сообщение отправлено /127.0.0.1:54128
+2025-09-15 19:47:30.313 [main] INFO   - Пришло сообщения от /127.0.0.1:61507:
+ClientCommandRequest{commandName='add', arguments=[rO0ABXNyABxvcmcuZXhhbXBsZS5iYXNlLm1vZGVsLk1vdmllAAAAAAAAAAECAAlKAAZidWRnZXRMAAtjb29yZGluYXRlc3QAJExvcmcvZXhhbXBsZS9iYXNlL21vZGVsL0Nvb3JkaW5hdGVzO0wADGNyZWF0aW9uRGF0ZXQAGUxqYXZhL3RpbWUvWm9uZWREYXRlVGltZTtMAAVnZW5yZXQAI0xvcmcvZXhhbXBsZS9iYXNlL21vZGVsL01vdmllR2VucmU7TAACaWR0ABNMamF2YS9sYW5nL0ludGVnZXI7TAAKbXBhYVJhdGluZ3QAI0xvcmcvZXhhbXBsZS9iYXNlL21vZGVsL01wYWFSYXRpbmc7TAAEbmFtZXQAEkxqYXZhL2xhbmcvU3RyaW5nO0wACG9wZXJhdG9ydAAfTG9yZy9leGFtcGxlL2Jhc2UvbW9kZWwvUGVyc29uO0wAC29zY2Fyc0NvdW50dAAQTGphdmEvbGFuZy9Mb25nO3hwAAAAAAAAAadzcgAib3JnLmV4YW1wbGUuYmFzZS5tb2RlbC5Db29yZGluYXRlcwAAAAAAAAABAgACSQABeEwAAXlxAH4ACHhwAAANX3NyAA5qYXZhLmxhbmcuTG9uZzuL5JDMjyPfAgABSgAFdmFsdWV4cgAQamF2YS5sYW5nLk51bWJlcoaslR0LlOCLAgAAeHAAAAAAAAABp3B+cgAhb3JnLmV4YW1wbGUuYmFzZS5tb2RlbC5Nb3ZpZUdlbnJlAAAAAAAAAAASAAB4cgAOamF2YS5sYW5nLkVudW0AAAAAAAAAABIAAHhwdAAHV0VTVEVSTnB+cgAhb3JnLmV4YW1wbGUuYmFzZS5tb2RlbC5NcGFhUmF0aW5nAAAAAAAAAAASAAB4cQB+ABB0AAFHdAADc2Rmc3IAHW9yZy5leGFtcGxlLmJhc2UubW9kZWwuUGVyc29uAAAAAAAAAAECAAVJAAZ3ZWlnaHRMAAhiaXJ0aGRheXEAfgACTAAGaGVpZ2h0dAARTGphdmEvbGFuZy9GbG9hdDtMAAhsb2NhdGlvbnQAIUxvcmcvZXhhbXBsZS9iYXNlL21vZGVsL0xvY2F0aW9uO0wABG5hbWVxAH4ABnhwAAAANnNyAA1qYXZhLnRpbWUuU2VylV2EuhsiSLIMAAB4cHcLBgAAB9ABAf8ACAB4c3IAD2phdmEubGFuZy5GbG9hdNrtyaLbPPDsAgABRgAFdmFsdWV4cQB+AA1ECAAAcHQABFRZUkVzcQB+AAwAAAAAAAABpw==]}
+2025-09-15 19:47:30.317 [main] INFO   - Сообщение обработано успешно: ServerResponse{type=SUCCESS, message='Фильм успешно добавлен в коллекцию с ID: 2'}
+2025-09-15 19:47:30.318 [main] INFO   - Сообщение отправлено /127.0.0.1:61507
+2025-09-15 19:47:37.386 [main] INFO   - Пришло сообщения от /127.0.0.1:61507:
+ClientCommandRequest{commandName='save', arguments=[]}
+2025-09-15 19:47:37.388 [main] INFO   - Сообщение обработано успешно: ServerResponse{type=SUCCESS, message='Коллекция сохранена'}
+2025-09-15 19:47:37.388 [main] INFO   - Сообщение отправлено /127.0.0.1:61507
+2025-09-16 12:59:48.826 [main] INFO   - Прочитано из файла: 2 элементов
+2025-09-16 12:59:48.829 [main] INFO   - Добавляем через addLoaded: tre (ID: 1)
+2025-09-16 12:59:48.829 [main] INFO   - Добавляем через addLoaded: sdf (ID: 2)
+2025-09-16 12:59:48.833 [main] INFO   - Итог загрузки: добавлено=0, загружено=2, пропущено=0, всего в коллекции=2
+2025-09-16 12:59:48.911 [main] INFO   - Сервер запущен на порту 8080
+2025-09-16 13:02:16.138 [main] INFO   - Коллекция успешно загружена! Загружено элементов: 2
+2025-09-16 13:02:16.202 [main] INFO   - Сервер запущен на порту 8080
+2025-09-16 13:02:35.309 [main] INFO   - Пришло сообщения от /127.0.0.1:55792:
+ClientCommandRequest{commandName='show', arguments=[]}
+2025-09-16 13:02:35.322 [main] INFO   - Сообщение обработано успешно: ServerResponse{type=SUCCESS, message='Movie{id=1, name='tre', coordinates=(432, 23), creationDate=2025-09-15T17:12:09.169728800Z, oscarsCount=32, budget=423, genre=WESTERN, mpaaRating=G, operator=Person{name='FGD', birthday=2000-01-01T00:00Z, height=321.0, weight=22, location=Location{x=null, y=0.0, name=''}}}
+Movie{id=2, name='sdf', coordinates=(3423, 423), creationDate=2025-09-15T17:47:30.317053900Z, oscarsCount=423, budget=423, genre=WESTERN, mpaaRating=G, operator=Person{name='TYRE', birthday=2000-01-01T00:00Z, height=544.0, weight=54, location=Location{x=null, y=0.0, name='null'}}}
+'}
+2025-09-16 13:02:35.325 [main] INFO   - Сообщение отправлено /127.0.0.1:55792
+2025-09-16 13:02:58.447 [main] INFO   - Пришло сообщения от /127.0.0.1:55792:
+ClientCommandRequest{commandName='info', arguments=[]}
+2025-09-16 13:02:58.448 [main] INFO   - Сообщение обработано успешно: ServerResponse{type=SUCCESS, message='Тип коллекции: java.util.LinkedHashSet
+Дата инициализации: 2025-09-16T13:02:16.0059927+02:00[Europe/Paris]
+Количество элементов: 2'}
+2025-09-16 13:02:58.448 [main] INFO   - Сообщение отправлено /127.0.0.1:55792
+2025-09-16 13:03:23.670 [main] INFO   - Пришло сообщения от /127.0.0.1:55792:
+ClientCommandRequest{commandName='info', arguments=[]}
+2025-09-16 13:03:23.670 [main] INFO   - Сообщение обработано успешно: ServerResponse{type=SUCCESS, message='Тип коллекции: java.util.LinkedHashSet
+Дата инициализации: 2025-09-16T13:02:16.0059927+02:00[Europe/Paris]
+Количество элементов: 2'}
+2025-09-16 13:03:23.671 [main] INFO   - Сообщение отправлено /127.0.0.1:55792
+2025-09-16 13:03:34.013 [main] INFO   - Пришло сообщения от /127.0.0.1:55792:
+ClientCommandRequest{commandName='help', arguments=[]}
+2025-09-16 13:03:34.014 [main] INFO   - Сообщение обработано успешно: ServerResponse{type=SUCCESS, message='Доступные команды:
+info                 - вывести информацию о коллекции
+show                 - вывести все элементы коллекции
+add                  - добавить новый элемент в коллекцию
+add_if_min           - добавить элемент, если он меньше минимального
+clear                - очистить коллекцию
+help                 - показать справку по командам
+history              - показать историю команд
+max_by_coordinates   - показать элемент с максимальными координатами
+min_by_creation_time - показать элемент с минимальным временем создания
+remove_by_id         - удалить элемент по ID
+remove_greater       - удалить элементы больше заданного
+update               - обновить элемент по ID
+average_of_oscars_count - среднее количество оскаров
+save                 - сохранить коллекцию в файл (только сервер)
+'}
+2025-09-16 13:03:34.015 [main] INFO   - Сообщение отправлено /127.0.0.1:55792
+2025-09-16 13:05:24.137 [main] INFO   - Пришло сообщения от /127.0.0.1:55792:
+ClientCommandRequest{commandName='add', arguments=[rO0ABXNyABxvcmcuZXhhbXBsZS5iYXNlLm1vZGVsLk1vdmllAAAAAAAAAAECAAlKAAZidWRnZXRMAAtjb29yZGluYXRlc3QAJExvcmcvZXhhbXBsZS9iYXNlL21vZGVsL0Nvb3JkaW5hdGVzO0wADGNyZWF0aW9uRGF0ZXQAGUxqYXZhL3RpbWUvWm9uZWREYXRlVGltZTtMAAVnZW5yZXQAI0xvcmcvZXhhbXBsZS9iYXNlL21vZGVsL01vdmllR2VucmU7TAACaWR0ABNMamF2YS9sYW5nL0ludGVnZXI7TAAKbXBhYVJhdGluZ3QAI0xvcmcvZXhhbXBsZS9iYXNlL21vZGVsL01wYWFSYXRpbmc7TAAEbmFtZXQAEkxqYXZhL2xhbmcvU3RyaW5nO0wACG9wZXJhdG9ydAAfTG9yZy9leGFtcGxlL2Jhc2UvbW9kZWwvUGVyc29uO0wAC29zY2Fyc0NvdW50dAAQTGphdmEvbGFuZy9Mb25nO3hwAAAAAAAAAOhzcgAib3JnLmV4YW1wbGUuYmFzZS5tb2RlbC5Db29yZGluYXRlcwAAAAAAAAABAgACSQABeEwAAXlxAH4ACHhwAAAEY3NyAA5qYXZhLmxhbmcuTG9uZzuL5JDMjyPfAgABSgAFdmFsdWV4cgAQamF2YS5sYW5nLk51bWJlcoaslR0LlOCLAgAAeHAAAAAAAAAAe3B+cgAhb3JnLmV4YW1wbGUuYmFzZS5tb2RlbC5Nb3ZpZUdlbnJlAAAAAAAAAAASAAB4cgAOamF2YS5sYW5nLkVudW0AAAAAAAAAABIAAHhwdAAHV0VTVEVSTnB+cgAhb3JnLmV4YW1wbGUuYmFzZS5tb2RlbC5NcGFhUmF0aW5nAAAAAAAAAAASAAB4cQB+ABB0AAFHdAADcGV0c3IAHW9yZy5leGFtcGxlLmJhc2UubW9kZWwuUGVyc29uAAAAAAAAAAECAAVJAAZ3ZWlnaHRMAAhiaXJ0aGRheXEAfgACTAAGaGVpZ2h0dAARTGphdmEvbGFuZy9GbG9hdDtMAAhsb2NhdGlvbnQAIUxvcmcvZXhhbXBsZS9iYXNlL21vZGVsL0xvY2F0aW9uO0wABG5hbWVxAH4ABnhwAAABp3NyAA1qYXZhLnRpbWUuU2VylV2EuhsiSLIMAAB4cHcLBgAAB9ABAf8ACAB4c3IAD2phdmEubGFuZy5GbG9hdNrtyaLbPPDsAgABRgAFdmFsdWV4cQB+AA1D2AAAcHQAAkVXcQB+AA4=]}
+2025-09-16 13:05:24.141 [main] INFO   - Сообщение обработано успешно: ServerResponse{type=SUCCESS, message='Фильм успешно добавлен в коллекцию с ID: 3'}
+2025-09-16 13:05:24.141 [main] INFO   - Сообщение отправлено /127.0.0.1:55792
+2025-09-16 13:05:34.411 [main] INFO   - Пришло сообщения от /127.0.0.1:55792:
+ClientCommandRequest{commandName='save', arguments=[]}
+2025-09-16 13:05:34.438 [main] INFO   - Сообщение обработано успешно: ServerResponse{type=SUCCESS, message='Коллекция сохранена'}
+2025-09-16 13:05:34.439 [main] INFO   - Сообщение отправлено /127.0.0.1:55792
+2025-09-16 15:31:50.034 [main] INFO   - Коллекция успешно загружена! Загружено элементов: 3
+2025-09-16 15:31:50.148 [main] INFO   - Сервер запущен на порту 8080
+2025-09-16 19:18:47.784 [main] INFO   - Пришло сообщения от /127.0.0.1:64466:
+ClientCommandRequest{commandName='help', arguments=[]}
+2025-09-16 19:18:47.789 [main] INFO   - Сообщение обработано успешно: ServerResponse{type=SUCCESS, message='Доступные команды:
+info                 - вывести информацию о коллекции
+show                 - вывести все элементы коллекции
+add                  - добавить новый элемент в коллекцию
+add_if_min           - добавить элемент, если он меньше минимального
+clear                - очистить коллекцию
+help                 - показать справку по командам
+history              - показать историю команд
+max_by_coordinates   - показать элемент с максимальными координатами
+min_by_creation_time - показать элемент с минимальным временем создания
+remove_by_id         - удалить элемент по ID
+remove_greater       - удалить элементы больше заданного
+update               - обновить элемент по ID
+average_of_oscars_count - среднее количество оскаров
+save                 - сохранить коллекцию в файл (только сервер)
+'}
+
+2025-09-16 20:24:54.277 [main] INFO   - Коллекция успешно загружена! Загружено элементов: 2
+2025-09-16 20:24:54.345 [main] INFO   - Сервер запущен на порту 8080
+2025-09-16 20:25:06.115 [main] INFO   - Пришло сообщения от /127.0.0.1:62007:
+ClientCommandRequest{commandName='help', arguments=[]}
+2025-09-16 20:25:06.116 [main] INFO   - Сообщение обработано успешно: ServerResponse{type=SUCCESS, message='Доступные команды:
+info                 - вывести информацию о коллекции
+show                 - вывести все элементы коллекции
+add                  - добавить новый элемент в коллекцию
+add_if_min           - добавить элемент, если он меньше минимального
+clear                - очистить коллекцию
+help                 - показать справку по командам
+history              - показать историю команд
+max_by_coordinates   - показать элемент с максимальными координатами
+min_by_creation_time - показать элемент с минимальным временем создания
+remove_by_id         - удалить элемент по ID
+remove_greater       - удалить элементы больше заданного
+update               - обновить элемент по ID
+average_of_oscars_count - среднее количество оскаров
+save                 - сохранить коллекцию в файл (только сервер)
+'}
+2025-09-16 20:25:06.119 [main] INFO   - Сообщение отправлено /127.0.0.1:62007
+2025-09-16 20:25:33.748 [main] INFO   - Пришло сообщения от /127.0.0.1:62007:
+ClientCommandRequest{commandName='show', arguments=[]}
+2025-09-16 20:25:33.761 [main] INFO   - Сообщение обработано успешно: ServerResponse{type=SUCCESS, message='Movie{id=3, name='pet', coordinates=(1123, 123), creationDate=2025-09-16T11:05:24.141355800Z, oscarsCount=123, budget=232, genre=WESTERN, mpaaRating=G, operator=Person{name='EW', birthday=2000-01-01T00:00Z, height=432.0, weight=423, location=Location{x=null, y=0.0, name=''}}}
+Movie{id=2, name='sdf', coordinates=(3423, 423), creationDate=2025-09-15T17:47:30.317053900Z, oscarsCount=423, budget=423, genre=WESTERN, mpaaRating=G, operator=Person{name='TYRE', birthday=2000-01-01T00:00Z, height=544.0, weight=54, location=Location{x=null, y=0.0, name=''}}}
+'}
+2025-09-16 20:25:33.762 [main] INFO   - Сообщение отправлено /127.0.0.1:62007
+2025-09-16 20:26:02.029 [main] INFO   - Пришло сообщения от /127.0.0.1:62007:
+ClientCommandRequest{commandName='remove_by_id', arguments=[3]}
+2025-09-16 20:26:02.029 [main] INFO   - Сообщение обработано успешно: ServerResponse{type=SUCCESS, message='Элемент с ID 3 успешно удален'}
+2025-09-16 20:26:02.030 [main] INFO   - Сообщение отправлено /127.0.0.1:62007
+2025-09-16 20:26:14.719 [main] INFO   - Пришло сообщения от /127.0.0.1:62007:
+ClientCommandRequest{commandName='save', arguments=[]}
+2025-09-16 20:26:14.746 [main] INFO   - Сообщение обработано успешно: ServerResponse{type=SUCCESS, message='Коллекция сохранена'}
+2025-09-16 20:26:14.747 [main] INFO   - Сообщение отправлено /127.0.0.1:62007

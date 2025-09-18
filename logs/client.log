@@ -1,0 +1,163 @@
+2025-09-12 10:39:13.832 [main] ERROR  - Не удалось получить ответ от сервера
+2025-09-12 11:16:01.971 [main] ERROR  - Не удалось получить ответ от сервера
+2025-09-12 11:19:04.046 [main] ERROR  - Не удалось получить ответ от сервера
+2025-09-12 11:20:59.903 [main] ERROR  - Не удалось получить ответ от сервера
+2025-09-12 11:22:31.305 [main] ERROR  - Не удалось получить ответ от сервера
+2025-09-12 12:12:46.032 [main] INFO  org.example.network.NetworkClient - Подключено к серверу: localhost:8080
+2025-09-12 12:12:51.947 [main] INFO  org.example.network.NetworkSender - Отправлено 183 байт команды: help
+2025-09-12 12:12:52.063 [main] INFO  org.example.network.NetworkClient - Получен ответ: Доступные команды:
+info                 - вывести информацию о коллекции
+show                 - вывести все элементы коллекции
+add                  - добавить новый элемент в коллекцию
+add_if_min           - добавить элемент, если он меньше минимального
+clear                - очистить коллекцию
+help                 - показать справку по командам
+history              - показать историю команд
+max_by_coordinates   - показать элемент с максимальными координатами
+min_by_creation_time - показать элемент с минимальным временем создания
+remove_by_id         - удалить элемент по ID
+remove_greater       - удалить элементы больше заданного
+update               - обновить элемент по ID
+average_of_oscars_count - среднее количество оскаров
+save                 - сохранить коллекцию в файл (только сервер)
+
+2025-09-15 17:50:21.293 [main] INFO  org.example.network.NetworkClient - Подключено к серверу: localhost:8080
+2025-09-15 17:50:41.321 [main] INFO  org.example.network.NetworkClient - Подключено к серверу: localhost:8080
+2025-09-15 17:50:53.293 [main] INFO  org.example.network.NetworkSender - Отправлено 183 байт команды: help
+2025-09-15 17:50:53.400 [main] INFO  org.example.network.NetworkClient - Получен ответ: Доступные команды:
+info                 - вывести информацию о коллекции
+show                 - вывести все элементы коллекции
+add                  - добавить новый элемент в коллекцию
+add_if_min           - добавить элемент, если он меньше минимального
+clear                - очистить коллекцию
+help                 - показать справку по командам
+history              - показать историю команд
+max_by_coordinates   - показать элемент с максимальными координатами
+min_by_creation_time - показать элемент с минимальным временем создания
+remove_by_id         - удалить элемент по ID
+remove_greater       - удалить элементы больше заданного
+update               - обновить элемент по ID
+average_of_oscars_count - среднее количество оскаров
+save                 - сохранить коллекцию в файл (только сервер)
+
+2025-09-15 17:56:58.669 [main] INFO  org.example.network.NetworkClient - Подключено к серверу: localhost:8080
+2025-09-15 17:58:31.251 [main] INFO  org.example.network.NetworkSender - Отправлено 183 байт команды: show
+2025-09-15 17:58:31.361 [main] INFO  org.example.network.NetworkClient - Получен ответ: Movie{id=1, name='Test Movie', coordinates=(10, 20), creationDate=2024-03-20T10:30Z, oscarsCount=5, budget=1000000, genre=SCIENCE_FICTION, mpaaRating=PG_13, operator=Person{name='John Operator', birthday=1979-12-31T21:00Z, height=180.5, weight=75, location=null}}
+
+2025-09-15 18:03:22.237 [main] INFO  org.example.network.NetworkClient - Подключено к серверу: localhost:8080
+2025-09-15 18:14:22.735 [main] INFO  org.example.network.NetworkClient - Подключено к серверу: localhost:8080
+2025-09-15 18:19:04.842 [main] INFO  org.example.network.NetworkClient - Подключено к серверу: localhost:8080
+2025-09-15 18:19:33.651 [main] INFO  org.example.network.NetworkSender - Отправлено 1469 байт команды: add
+2025-09-15 18:19:43.756 [main] ERROR org.example.network.NetworkClient - Таймаут соединения
+2025-09-15 18:21:51.583 [main] INFO  org.example.network.NetworkClient - Подключено к серверу: localhost:8080
+2025-09-15 18:22:00.188 [main] INFO  org.example.network.NetworkSender - Отправлено 183 байт команды: help
+2025-09-15 18:22:00.297 [main] INFO  org.example.network.NetworkClient - Получен ответ: Доступные команды:
+info                 - вывести информацию о коллекции
+show                 - вывести все элементы коллекции
+add                  - добавить новый элемент в коллекцию
+add_if_min           - добавить элемент, если он меньше минимального
+clear                - очистить коллекцию
+help                 - показать справку по командам
+history              - показать историю команд
+max_by_coordinates   - показать элемент с максимальными координатами
+min_by_creation_time - показать элемент с минимальным временем создания
+remove_by_id         - удалить элемент по ID
+remove_greater       - удалить элементы больше заданного
+update               - обновить элемент по ID
+average_of_oscars_count - среднее количество оскаров
+save                 - сохранить коллекцию в файл (только сервер)
+
+2025-09-15 18:22:51.296 [main] INFO  org.example.network.NetworkSender - Отправлено 1465 байт команды: add
+2025-09-15 18:23:01.310 [main] ERROR org.example.network.NetworkClient - Таймаут соединения
+2025-09-15 18:27:13.437 [main] INFO  org.example.network.NetworkClient - Подключено к серверу: localhost:8080
+2025-09-15 18:28:37.549 [main] INFO  org.example.network.NetworkSender - Отправлено 1469 байт команды: add
+2025-09-15 18:28:47.646 [main] ERROR org.example.network.NetworkClient - Таймаут соединения
+2025-09-15 18:30:59.331 [main] INFO  org.example.network.NetworkClient - Подключено к серверу: localhost:8080
+2025-09-15 18:31:33.291 [main] INFO  org.example.network.NetworkSender - Отправлено 1465 байт команды: add
+2025-09-15 18:31:33.407 [main] INFO  org.example.network.NetworkClient - Получен ответ: Фильм успешно добавлен в коллекцию с ID: 1
+2025-09-15 18:34:31.270 [main] INFO  org.example.network.NetworkClient - Подключено к серверу: localhost:8080
+2025-09-15 18:35:09.486 [main] INFO  org.example.network.NetworkSender - Отправлено 1477 байт команды: add
+2025-09-15 18:35:09.490 [main] INFO  org.example.network.NetworkClient - Получен ответ: Фильм успешно добавлен в коллекцию с ID: 2
+2025-09-15 18:36:07.591 [main] INFO  org.example.network.NetworkSender - Отправлено 1477 байт команды: add
+2025-09-15 18:36:07.696 [main] INFO  org.example.network.NetworkClient - Получен ответ: Фильм успешно добавлен в коллекцию с ID: 3
+2025-09-15 18:39:45.979 [main] INFO  org.example.network.NetworkClient - Подключено к серверу: localhost:8080
+2025-09-15 18:40:21.437 [main] INFO  org.example.network.NetworkSender - Отправлено 1481 байт команды: add
+2025-09-15 18:40:21.542 [main] INFO  org.example.network.NetworkClient - Получен ответ: Фильм успешно добавлен в коллекцию с ID: 1
+2025-09-15 18:45:59.645 [main] INFO  org.example.network.NetworkClient - Подключено к серверу: localhost:8080
+2025-09-15 18:46:50.455 [main] INFO  org.example.network.NetworkSender - Отправлено 1477 байт команды: add
+2025-09-15 18:46:50.560 [main] INFO  org.example.network.NetworkClient - Получен ответ: Фильм успешно добавлен в коллекцию с ID: 1
+2025-09-15 18:47:17.834 [main] INFO  org.example.network.NetworkSender - Отправлено 1481 байт команды: add
+2025-09-15 18:47:17.950 [main] INFO  org.example.network.NetworkClient - Получен ответ: Фильм успешно добавлен в коллекцию с ID: 2
+2025-09-15 18:47:48.415 [main] INFO  org.example.network.NetworkSender - Отправлено 1477 байт команды: add
+2025-09-15 18:47:48.530 [main] INFO  org.example.network.NetworkClient - Получен ответ: Фильм успешно добавлен в коллекцию с ID: 3
+2025-09-15 18:48:00.431 [Thread-0] INFO   - Отправка команды сохранения перед выходом...
+2025-09-15 18:48:00.431 [Thread-0] INFO  org.example.network.NetworkSender - Отправлено 183 байт команды: save
+2025-09-15 19:11:23.531 [main] INFO  org.example.network.NetworkClient - Подключено к серверу: localhost:8080
+2025-09-15 19:12:09.160 [main] INFO  org.example.network.NetworkSender - Отправлено 1477 байт команды: add
+2025-09-15 19:12:09.268 [main] INFO  org.example.network.NetworkClient - Получен ответ: Фильм успешно добавлен в коллекцию с ID: 1
+2025-09-15 19:12:44.011 [Thread-0] INFO   - Отправка команды сохранения перед выходом...
+2025-09-15 19:12:44.012 [Thread-0] INFO  org.example.network.NetworkSender - Отправлено 183 байт команды: save
+2025-09-15 19:21:06.800 [main] INFO  org.example.network.NetworkClient - Подключено к серверу: localhost:8080
+2025-09-15 19:45:27.041 [main] INFO  org.example.network.NetworkClient - Подключено к серверу: localhost:8080
+2025-09-15 19:45:39.198 [Thread-0] INFO   - Отправка команды сохранения перед выходом...
+2025-09-15 19:46:58.604 [main] INFO  org.example.network.NetworkClient - Подключено к серверу: localhost:8080
+2025-09-15 19:47:30.315 [main] INFO  org.example.network.NetworkSender - Отправлено 1481 байт команды: add
+2025-09-15 19:47:30.426 [main] INFO  org.example.network.NetworkClient - Получен ответ: Фильм успешно добавлен в коллекцию с ID: 2
+2025-09-15 19:47:37.384 [Thread-0] INFO   - Отправка команды сохранения перед выходом...
+2025-09-15 19:47:37.385 [Thread-0] INFO  org.example.network.NetworkSender - Отправлено 183 байт команды: save
+2025-09-16 13:02:27.191 [main] INFO  org.example.network.NetworkClient - Подключено к серверу: localhost:8080
+2025-09-16 13:02:35.305 [main] INFO  org.example.network.NetworkSender - Отправлено 183 байт команды: show
+2025-09-16 13:02:35.417 [main] INFO  org.example.network.NetworkClient - Получен ответ: Movie{id=1, name='tre', coordinates=(432, 23), creationDate=2025-09-15T17:12:09.169728800Z, oscarsCount=32, budget=423, genre=WESTERN, mpaaRating=G, operator=Person{name='FGD', birthday=2000-01-01T00:00Z, height=321.0, weight=22, location=Location{x=null, y=0.0, name=''}}}
+Movie{id=2, name='sdf', coordinates=(3423, 423), creationDate=2025-09-15T17:47:30.317053900Z, oscarsCount=423, budget=423, genre=WESTERN, mpaaRating=G, operator=Person{name='TYRE', birthday=2000-01-01T00:00Z, height=544.0, weight=54, location=Location{x=null, y=0.0, name='null'}}}
+
+2025-09-16 13:02:58.447 [main] INFO  org.example.network.NetworkSender - Отправлено 183 байт команды: info
+2025-09-16 13:02:58.554 [main] INFO  org.example.network.NetworkClient - Получен ответ: Тип коллекции: java.util.LinkedHashSet
+Дата инициализации: 2025-09-16T13:02:16.0059927+02:00[Europe/Paris]
+Количество элементов: 2
+2025-09-16 13:03:23.670 [main] INFO  org.example.network.NetworkSender - Отправлено 183 байт команды: info
+2025-09-16 13:03:23.772 [main] INFO  org.example.network.NetworkClient - Получен ответ: Тип коллекции: java.util.LinkedHashSet
+Дата инициализации: 2025-09-16T13:02:16.0059927+02:00[Europe/Paris]
+Количество элементов: 2
+2025-09-16 13:03:34.013 [main] INFO  org.example.network.NetworkSender - Отправлено 183 байт команды: help
+2025-09-16 13:03:34.124 [main] INFO  org.example.network.NetworkClient - Получен ответ: Доступные команды:
+info                 - вывести информацию о коллекции
+show                 - вывести все элементы коллекции
+add                  - добавить новый элемент в коллекцию
+add_if_min           - добавить элемент, если он меньше минимального
+clear                - очистить коллекцию
+help                 - показать справку по командам
+history              - показать историю команд
+max_by_coordinates   - показать элемент с максимальными координатами
+min_by_creation_time - показать элемент с минимальным временем создания
+remove_by_id         - удалить элемент по ID
+remove_greater       - удалить элементы больше заданного
+update               - обновить элемент по ID
+average_of_oscars_count - среднее количество оскаров
+save                 - сохранить коллекцию в файл (только сервер)
+
+2025-09-16 20:25:00.039 [main] INFO  org.example.network.NetworkClient - Подключено к серверу: localhost:8080
+2025-09-16 20:25:06.110 [main] INFO  org.example.network.NetworkSender - Отправлено 183 байт команды: help
+2025-09-16 20:25:06.223 [main] INFO  org.example.network.NetworkClient - Получен ответ: Доступные команды:
+info                 - вывести информацию о коллекции
+show                 - вывести все элементы коллекции
+add                  - добавить новый элемент в коллекцию
+add_if_min           - добавить элемент, если он меньше минимального
+clear                - очистить коллекцию
+help                 - показать справку по командам
+history              - показать историю команд
+max_by_coordinates   - показать элемент с максимальными координатами
+min_by_creation_time - показать элемент с минимальным временем создания
+remove_by_id         - удалить элемент по ID
+remove_greater       - удалить элементы больше заданного
+update               - обновить элемент по ID
+average_of_oscars_count - среднее количество оскаров
+save                 - сохранить коллекцию в файл (только сервер)
+
+2025-09-16 20:25:33.747 [main] INFO  org.example.network.NetworkSender - Отправлено 183 байт команды: show
+2025-09-16 20:25:33.859 [main] INFO  org.example.network.NetworkClient - Получен ответ: Movie{id=3, name='pet', coordinates=(1123, 123), creationDate=2025-09-16T11:05:24.141355800Z, oscarsCount=123, budget=232, genre=WESTERN, mpaaRating=G, operator=Person{name='EW', birthday=2000-01-01T00:00Z, height=432.0, weight=423, location=Location{x=null, y=0.0, name=''}}}
+Movie{id=2, name='sdf', coordinates=(3423, 423), creationDate=2025-09-15T17:47:30.317053900Z, oscarsCount=423, budget=423, genre=WESTERN, mpaaRating=G, operator=Person{name='TYRE', birthday=2000-01-01T00:00Z, height=544.0, weight=54, location=Location{x=null, y=0.0, name=''}}}
+
+2025-09-16 20:26:02.028 [main] INFO  org.example.network.NetworkSender - Отправлено 195 байт команды: remove_by_id
+2025-09-16 20:26:02.140 [main] INFO  org.example.network.NetworkClient - Получен ответ: Элемент с ID 3 успешно удален
+2025-09-16 20:26:14.717 [Thread-0] INFO   - Отправка команды сохранения перед выходом...
+2025-09-16 20:26:14.718 [Thread-0] INFO  org.example.network.NetworkSender - Отправлено 183 байт команды: save

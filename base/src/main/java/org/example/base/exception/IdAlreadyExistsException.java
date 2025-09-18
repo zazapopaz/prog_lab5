@@ -1,0 +1,9 @@
+package org.example.base.exception;
+
+/**
+ * Исключение для дублирования ID.
+ */
+public class IdAlreadyExistsException extends Exception {
+    public IdAlreadyExistsException() { super(); }
+    public IdAlreadyExistsException(String message) { super(message); }
+}

@@ -1,0 +1,28 @@
+<MovieCollection>
+  <movies>
+    <movie>
+      <id>2</id>
+      <name>sdf</name>
+      <coordinates>
+        <x>3423</x>
+        <y>423</y>
+      </coordinates>
+      <creationDate>1757958450.317053900</creationDate>
+      <oscarsCount>423</oscarsCount>
+      <budget>423</budget>
+      <genre>WESTERN</genre>
+      <mpaaRating>G</mpaaRating>
+      <operator>
+        <name>TYRE</name>
+        <birthday>946684800.000000000</birthday>
+        <height>544.0</height>
+        <weight>54</weight>
+        <location>
+          <x/>
+          <y>0.0</y>
+          <name></name>
+        </location>
+      </operator>
+    </movie>
+  </movies>
+</MovieCollection>
