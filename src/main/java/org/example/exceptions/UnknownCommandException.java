@@ -1,0 +1,11 @@
+package org.example.exceptions;
+
+/**
+ * Исключение для неизвестной команды.
+ */
+public class UnknownCommandException extends Exception {
+    public UnknownCommandException() { super(); }
+    public UnknownCommandException(String message) { super(message); }
+}
+
+
